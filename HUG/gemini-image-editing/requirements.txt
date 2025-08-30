@@ -1,0 +1,5 @@
+gradio
+google-genai
+Pillow
+asyncio
+pydantic==2.10.6
