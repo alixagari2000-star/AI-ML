@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple LLM Chat</title>
+</head>
+<body>
+    <h1>Simple LLM Chat</h1>
+    <input type="text" id="prompt" placeholder="Type your prompt here">
+    <button onclick="sendPrompt()">Send</button>
+    <div id="response"></div>
+    <script>
+        function sendPrompt() {
+            const prompt = document.getElementById('prompt').value;
+            fetch('/api/chat', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({prompt})
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('response').innerText = data.response;
+            });
+        }
+    </script>
+</body>
+</html>

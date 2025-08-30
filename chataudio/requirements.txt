@@ -1,0 +1,12 @@
+flask 
+flask-socketio 
+SpeechRecognition 
+requests 
+eventlet
+Flask
+Flask-Cors
+requests
+SpeechRecognition
+langdetect
+pydub
+FFmpeg

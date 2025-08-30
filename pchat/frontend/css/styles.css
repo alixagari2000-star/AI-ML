@@ -1,0 +1,74 @@
+/* Basic styling for body */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+/* Chat window container */
+#chat-window {
+  border: 1px solid #ccc;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Message input field */
+#message-input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+/* Send button */
+#send-btn {
+  padding: 8px 12px;
+  font-size: 1em;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+#send-btn:hover {
+  background-color: #45a049;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+}
+
+/* Form inputs on login page */
+form input[type="text"] {
+  padding: 8px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button {
+  padding: 8px 12px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0b7dda;
+}
